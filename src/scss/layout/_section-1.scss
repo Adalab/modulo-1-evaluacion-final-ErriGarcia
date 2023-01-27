@@ -1,0 +1,38 @@
+.section-1 {
+    width: 100vw;
+    height: 100vh;
+    translate: 0 -10%;
+    background-image: url(../images/cover.jpeg);
+    background-position: 40.7%;
+    background-size: 320%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: $white;
+    text-align: center;
+    padding-bottom: 37.8px;
+    &--title {
+        font: $robotoSlab_bold_30;
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+    &--description {
+        font: $roboto_regular_16;
+        line-height: 19px;
+    }
+    &--button {
+        width: 37px;
+        height: 35px;
+        background-color: $white;
+        border-radius: 50%;
+        margin-top: 10px;
+        &--link {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
