@@ -17,18 +17,6 @@
         margin-top: 11px;
     }
     &--button {
-        width: 160px;
-        height: 45px;
-        color: $brightOrange;
-        font: $roboto_medium_20;
-        line-height: 45px;
-        border-color: $brightOrange;
-        background-color: $white;
-        border-radius: 40px;
-        padding: 10px 11.4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 11px;
+        @include button_white_style;
     }
 }

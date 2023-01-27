@@ -79,4 +79,54 @@
     align-items: center;
     margin-top: 11px; }
 
+.section-3 {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 29px 0 49px 0;
+  color: #000000; }
+  .section-3--title {
+    font: 700 20px "Roboto Slab", serif;
+    line-height: 30px;
+    margin: 0 15px 0 15px; }
+  .section-3--container--article {
+    margin: 41px 72px 0 72px; }
+  .section-3--container--title {
+    font: 700 18px "Roboto Slab", serif;
+    line-height: 30px; }
+  .section-3--container--paragraph {
+    font: 400 18px "Roboto", sans-serif;
+    line-height: 30px; }
+  .section-3--button {
+    height: 45px;
+    color: #f26002;
+    font: 500 20px "Roboto", sans-serif;
+    color: #ffffff;
+    border-color: #f26002;
+    background-color: #f26002;
+    border-radius: 40px;
+    border-width: 0;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px; }
+  .section-3--button--link {
+    display: flex;
+    justify-content: center;
+    width: 37px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 10px;
+    transform: translate(0, 185%); }
+    .section-3--button--link--link {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+@mixin button_link {
+    width: 37px;
+    height: 35px;
+    background-color: $white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+@mixin scroll_arrow {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button_white_style {
+    width: 160px;
+    height: 45px;
+    color: $brightOrange;
+    font: $roboto_medium_20;
+    line-height: 45px;
+    border-color: $brightOrange;
+    background-color: $white;
+    border-radius: 40px;
+    padding: 10px 11.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+}
+
+@mixin button_orange_style {
+    height: 45px;
+    color: $brightOrange;
+    font: $roboto_medium_20;
+    color: $white;
+    border-color: $brightOrange;
+    background-color: $brightOrange;
+    border-radius: 40px;
+    border-width: 0;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+}

@@ -1,0 +1,40 @@
+.section-3 {
+    background-color: $ligthGrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 29px 0 49px 0;
+    color: $black;
+    &--title {
+        font: $robotoSlab_bold_20;
+        line-height: 30px;
+        margin: 0 15px 0 15px;
+    }
+    &--container {
+        &--article {
+            margin: 41px 72px 0 72px;
+        }
+        &--title {
+            font: $robotoSlab_bold_18;
+            line-height: 30px;
+        }
+        &--paragraph {
+            font: $roboto_regular_18;
+            line-height: 30px;
+        }
+    }
+    &--button {
+        @include button_orange_style;
+    }
+    &--button--link {
+        display: flex;
+        justify-content: center;
+        @include button_link;
+        transform: translate(0, 185%);
+        &--link {
+            @include scroll_arrow;
+        }
+    }
+}
