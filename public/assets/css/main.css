@@ -212,6 +212,9 @@ table {
   @media (min-width: 768px) {
     .section-2 {
       padding: 0 37px 51px 37px; } }
+  @media (min-width: 1200px) {
+    .section-2 {
+      padding: 0 136px 67px 275px; } }
   .section-2--small-paragraph {
     color: #f26002;
     font: 400 14px "Roboto", sans-serif;
@@ -264,6 +267,9 @@ table {
   text-align: center;
   padding-top: 29px;
   color: #000000; }
+  @media (min-width: 1200px) {
+    .section-3 {
+      padding-top: 48px; } }
   .section-3--title {
     font: 700 20px "Roboto Slab", serif;
     line-height: 30px;
@@ -271,6 +277,10 @@ table {
     @media (min-width: 768px) {
       .section-3--title {
         font: 700 28px "Roboto Slab", serif;
+        line-height: 45px; } }
+    @media (min-width: 1200px) {
+      .section-3--title {
+        font: 700 32px "Roboto Slab", serif;
         line-height: 45px; } }
   @media (min-width: 768px) {
     .section-3--container {
@@ -286,9 +296,24 @@ table {
   .section-3--container--title {
     font: 700 18px "Roboto Slab", serif;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .section-3--container--title {
+        font: 700 24px "Roboto Slab", serif;
+        line-height: 30px; } }
+    @media (min-width: 1200px) {
+      .section-3--container--title {
+        font: 700 24px "Roboto Slab", serif; } }
   .section-3--container--paragraph {
     font: 400 18px "Roboto", sans-serif;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .section-3--container--paragraph {
+        font: 400 20px "Roboto", sans-serif;
+        line-height: 30px;
+        margin-top: 18px; } }
+    @media (min-width: 1200px) {
+      .section-3--container--paragraph {
+        margin-top: 32px; } }
   .section-3--button {
     height: 45px;
     color: #f26002;
@@ -319,6 +344,9 @@ table {
       .section-3--button--link {
         width: 45px;
         height: 45px; } }
+    @media (min-width: 768px) {
+      .section-3--button--link {
+        margin-top: 31px; } }
     .section-3--button--link--link {
       height: 100%;
       display: flex;

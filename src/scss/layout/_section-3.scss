@@ -7,6 +7,9 @@
     text-align: center;
     padding-top: 29px;
     color: $black;
+    @media (min-width: 1200px) {
+        padding-top: 48px;
+    }
     &--title {
         font: $robotoSlab_bold_20;
         line-height: 30px;
@@ -15,6 +18,10 @@
             font: $robotoSlab_bold_28;
             line-height: 45px;
         }
+                @media (min-width: 1200px) {
+                    font: $robotoSlab_bold_32;
+                    line-height: 45px;
+                }
     }
     &--container {
         @media (min-width: 768px) {
@@ -31,10 +38,25 @@
         &--title {
             font: $robotoSlab_bold_18;
             line-height: 30px;
+            @media (min-width: 768px) {
+                font: $robotoSlab_bold_24;
+                line-height: 30px;
+            }
+                @media (min-width: 1200px) {
+                    font: $robotoSlab_bold_24;
+                }
         }
         &--paragraph {
             font: $roboto_regular_18;
             line-height: 30px;
+            @media (min-width: 768px) {
+                font: $roboto_regular_20;
+                line-height: 30px;
+                margin-top: 18px;
+            }
+                @media (min-width: 1200px) {
+                    margin-top: 32px
+                }
         }
     }
     &--button {
@@ -52,6 +74,9 @@
             width: 45px;
             height: 45px;
         }
+            @media (min-width: 768px) {
+                margin-top: 31px;
+            }
         &--link {
             @include scroll_arrow;
         }
