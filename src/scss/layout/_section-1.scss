@@ -18,6 +18,10 @@
         background-size: 186%;
         padding-bottom: 45px;
     }
+    @media (min-width: 1200px) {
+        background-position: 50% 123%;
+        background-size: 143%;
+    }
     &--title {
         font: $robotoSlab_bold_30;
         text-transform: uppercase;
@@ -25,6 +29,10 @@
         @media (min-width: 768px) {
             font: $robotoSlab_bold_75;
             line-height: 100px;
+            }
+        @media (min-width: 1200px) {
+            font: $robotoSlab_bold_100;
+            line-height: 132px;
         }
     }
     &--description {
@@ -40,6 +48,11 @@
         @media (min-width: 768px) {
             width: 42.5px;
             height: 45px;
+        }
+        @media (min-width: 1200px) {
+            width: 46.2px;
+            height: 45.9px;
+            margin: 33.4px 0 30px 0;
         }
         &--link {
             @include scroll_arrow;
