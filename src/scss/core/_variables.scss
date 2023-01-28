@@ -8,13 +8,24 @@ $black: #000000;
 
 // FONTS
 // Roboto Slab
-$robotoSlab_bold_30: 700 30px 'Roboto Slab', serif;
-$robotoSlab_bold_24: 700 24px 'Roboto Slab', serif;
-$robotoSlab_bold_20: 700 20px 'Roboto Slab', serif;
 $robotoSlab_bold_18: 700 18px 'Roboto Slab', serif;
+$robotoSlab_bold_20: 700 20px 'Roboto Slab', serif;
+$robotoSlab_bold_24: 700 24px 'Roboto Slab', serif;
+$robotoSlab_bold_30: 700 30px 'Roboto Slab', serif;
 
 // Roboto
-$roboto_medium_20: 500 20px 'Roboto', sans-serif;
-$roboto_regular_18: 400 18px 'Roboto', sans-serif;
-$roboto_regular_16: 400 16px 'Roboto', sans-serif;
 $roboto_regular_14: 400 14px 'Roboto', sans-serif;
+$roboto_regular_16: 400 16px 'Roboto', sans-serif;
+$roboto_regular_18: 400 18px 'Roboto', sans-serif;
+$roboto_medium_20: 500 20px 'Roboto', sans-serif;
+
+// ** FONTS ** //
+// @media (min-width: 768px)
+
+// Roboto Slab
+$robotoSlab_bold_28: 700 28px 'Roboto Slab', serif;
+$robotoSlab_bold_75: 700 75px 'Roboto Slab', serif;
+
+// Roboto
+$roboto_regular_20: 400 20px 'Roboto', sans-serif;
+$roboto_regular_24: 400 24px 'Roboto', sans-serif;
