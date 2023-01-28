@@ -1,22 +1,40 @@
 .section-2 {
     padding: 34px 18px 41px 18px;
+    @media (min-width: 768px) {
+            padding: 0 37px 51px 37px;
+        }
     &--small-paragraph {
         color: $brightOrange;
         font: $roboto_regular_14;
         line-height: 30px;
+        @media (min-width: 768px) {
+                font: $roboto_regular_16;
+                line-height: 30px;
+            }
     }
     &--title {
         color: $black;
         font: $robotoSlab_bold_24;
         line-height: 30px;
+        @media (min-width: 768px) {
+            font: $robotoSlab_bold_32;
+            line-height: 45px;
+        }
     }
     &--description {
         color: $greyishBrown;
         font: $roboto_regular_18;
         line-height: 30px;
-        margin-top: 11px;
+        margin-top: 12px;
+        @media (min-width: 768px) {
+            font: $roboto_regular_20;
+            line-height: 30px;
+        }
     }
     &--button {
         @include button_white_style;
+        @media (min-width: 768px) {
+            margin-top: 21px;
+        }
     }
 }

@@ -196,19 +196,34 @@ table {
 
 .section-2 {
   padding: 34px 18px 41px 18px; }
+  @media (min-width: 768px) {
+    .section-2 {
+      padding: 0 37px 51px 37px; } }
   .section-2--small-paragraph {
     color: #f26002;
     font: 400 14px "Roboto", sans-serif;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .section-2--small-paragraph {
+        font: 400 16px "Roboto", sans-serif;
+        line-height: 30px; } }
   .section-2--title {
     color: #000000;
     font: 700 24px "Roboto Slab", serif;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .section-2--title {
+        font: 700 32px "Roboto Slab", serif;
+        line-height: 45px; } }
   .section-2--description {
     color: #4a4a4a;
     font: 400 18px "Roboto", sans-serif;
     line-height: 30px;
-    margin-top: 11px; }
+    margin-top: 12px; }
+    @media (min-width: 768px) {
+      .section-2--description {
+        font: 400 20px "Roboto", sans-serif;
+        line-height: 30px; } }
   .section-2--button {
     width: 160px;
     height: 45px;
@@ -223,6 +238,9 @@ table {
     justify-content: center;
     align-items: center;
     margin-top: 11px; }
+    @media (min-width: 768px) {
+      .section-2--button {
+        margin-top: 21px; } }
 
 .section-3 {
   background-color: #f2f2f2;
@@ -231,14 +249,27 @@ table {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 29px 0 49px 0;
+  padding-top: 29px;
   color: #000000; }
   .section-3--title {
     font: 700 20px "Roboto Slab", serif;
     line-height: 30px;
     margin: 0 15px 0 15px; }
+    @media (min-width: 768px) {
+      .section-3--title {
+        font: 700 28px "Roboto Slab", serif;
+        line-height: 45px; } }
+  @media (min-width: 768px) {
+    .section-3--container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      -moz-column-gap: 27.7px;
+      column-gap: 27.7px; } }
   .section-3--container--article {
     margin: 41px 72px 0 72px; }
+    @media (min-width: 768px) {
+      .section-3--container--article {
+        margin: 38px 0 0 0; } }
   .section-3--container--title {
     font: 700 18px "Roboto Slab", serif;
     line-height: 30px; }
@@ -259,6 +290,9 @@ table {
     justify-content: center;
     align-items: center;
     margin-top: 27px; }
+    @media (min-width: 768px) {
+      .section-3--button {
+        margin-top: 38px; } }
   .section-3--button--link {
     display: flex;
     justify-content: center;
@@ -267,7 +301,11 @@ table {
     background-color: #ffffff;
     border-radius: 50%;
     margin-top: 10px;
-    transform: translate(0, 185%); }
+    transform: translate(0, 44%); }
+    @media (min-width: 768px) {
+      .section-3--button--link {
+        width: 45px;
+        height: 45px; } }
     .section-3--button--link--link {
       height: 100%;
       display: flex;

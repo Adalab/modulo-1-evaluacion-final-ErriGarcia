@@ -5,16 +5,28 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 29px 0 49px 0;
+    padding-top: 29px;
     color: $black;
     &--title {
         font: $robotoSlab_bold_20;
         line-height: 30px;
         margin: 0 15px 0 15px;
+        @media (min-width: 768px) {
+            font: $robotoSlab_bold_28;
+            line-height: 45px;
+        }
     }
     &--container {
+        @media (min-width: 768px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 27.7px;
+            }
         &--article {
             margin: 41px 72px 0 72px;
+            @media (min-width: 768px) {
+                margin: 38px 0 0 0;
+            }
         }
         &--title {
             font: $robotoSlab_bold_18;
@@ -27,12 +39,19 @@
     }
     &--button {
         @include button_orange_style;
+        @media (min-width: 768px) {
+            margin-top: 38px;
+        }
     }
     &--button--link {
         display: flex;
         justify-content: center;
         @include button_link;
-        transform: translate(0, 185%);
+        transform: translate(0, 44%);
+        @media (min-width: 768px) {
+            width: 45px;
+            height: 45px;
+        }
         &--link {
             @include scroll_arrow;
         }
