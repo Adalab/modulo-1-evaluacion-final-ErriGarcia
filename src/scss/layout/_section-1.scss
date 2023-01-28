@@ -13,17 +13,34 @@
     color: $white;
     text-align: center;
     padding-bottom: 37.8px;
+    @media (min-width: 768px) {
+        background-position: 21.7%;
+        background-size: 186%;
+        padding-bottom: 45px;
+    }
     &--title {
         font: $robotoSlab_bold_30;
         text-transform: uppercase;
         line-height: 50px;
+        @media (min-width: 768px) {
+            font: $robotoSlab_bold_75;
+            line-height: 100px;
+        }
     }
     &--description {
         font: $roboto_regular_16;
         line-height: 19px;
+        @media (min-width: 768px) {
+            font: $roboto_regular_24;
+            line-height: 28px;
+        }
     }
     &--button {
         @include button_link;
+        @media (min-width: 768px) {
+            width: 42.5px;
+            height: 45px;
+        }
         &--link {
             @include scroll_arrow;
         }

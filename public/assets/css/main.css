@@ -158,19 +158,36 @@ table {
   color: #ffffff;
   text-align: center;
   padding-bottom: 37.8px; }
+  @media (min-width: 768px) {
+    .section-1 {
+      background-position: 21.7%;
+      background-size: 186%;
+      padding-bottom: 45px; } }
   .section-1--title {
     font: 700 30px "Roboto Slab", serif;
     text-transform: uppercase;
     line-height: 50px; }
+    @media (min-width: 768px) {
+      .section-1--title {
+        font: 700 75px "Roboto Slab", serif;
+        line-height: 100px; } }
   .section-1--description {
     font: 400 16px "Roboto", sans-serif;
     line-height: 19px; }
+    @media (min-width: 768px) {
+      .section-1--description {
+        font: 400 24px "Roboto", sans-serif;
+        line-height: 28px; } }
   .section-1--button {
     width: 37px;
     height: 35px;
     background-color: #ffffff;
     border-radius: 50%;
     margin-top: 10px; }
+    @media (min-width: 768px) {
+      .section-1--button {
+        width: 42.5px;
+        height: 45px; } }
     .section-1--button--link {
       height: 100%;
       display: flex;
