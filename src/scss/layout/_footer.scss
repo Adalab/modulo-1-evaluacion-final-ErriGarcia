@@ -9,13 +9,36 @@
     text-align: center;
     color: $white;
     font: $roboto_regular_16;
-    &--nav, &--social-media {
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+    }
+    &--nav {
         text-transform: uppercase;
         line-height: 30px;
+        @media (min-width: 768px) {
+            display: flex;
+            order: 2;
+        }
+    }
+    &--social-media {
+            text-transform: uppercase;
+            line-height: 30px;
+        @media (min-width: 768px) {
+                display: flex;
+                order: 3;
+        }
     }
     &--copyright {
         font: $roboto_regular_14;
         line-height: 30px;
+        @media (min-width: 768px) {
+                display: flex;
+                flex-direction: column;;
+                order: 1;
+        }
         &--orange-heart {
             color: $brightOrange;
         }

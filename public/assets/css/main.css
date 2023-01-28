@@ -323,12 +323,34 @@ table {
   text-align: center;
   color: #ffffff;
   font: 400 16px "Roboto", sans-serif; }
-  .footer--nav, .footer--social-media {
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      text-align: left; } }
+  .footer--nav {
     text-transform: uppercase;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .footer--nav {
+        display: flex;
+        order: 2; } }
+  .footer--social-media {
+    text-transform: uppercase;
+    line-height: 30px; }
+    @media (min-width: 768px) {
+      .footer--social-media {
+        display: flex;
+        order: 3; } }
   .footer--copyright {
     font: 400 14px "Roboto", sans-serif;
     line-height: 30px; }
+    @media (min-width: 768px) {
+      .footer--copyright {
+        display: flex;
+        flex-direction: column;
+        order: 1; } }
     .footer--copyright--orange-heart {
       color: #f26002; }
 
