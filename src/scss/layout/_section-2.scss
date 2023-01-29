@@ -1,11 +1,11 @@
 .section-2 {
     padding: 34px 18px 41px 18px;
     @media (min-width: 768px) {
-            padding: 0 37px 51px 37px;
-        }
-        @media (min-width: 1200px) {
-                padding: 0 136px 67px 275px;
-        }
+        padding: 37px 37px 51px 37px;
+    }
+    @media (min-width: 1200px) {
+        padding: 58px 136px 67px 275px;
+    }
     &--small-paragraph {
         color: $brightOrange;
         font: $roboto_regular_14;
@@ -38,6 +38,15 @@
         @include button_white_style;
         @media (min-width: 768px) {
             margin-top: 21px;
+        }
+        @media (min-width: 1200px) {
+            transition: 0.5s;
+            &:hover {
+                background-color: $brightOrange;
+                color: $white;
+                cursor: pointer;
+                transform: scale(1.1);
+            }
         }
     }
 }

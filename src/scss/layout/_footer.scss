@@ -25,6 +25,13 @@
             display: flex;
             order: 2;
         }
+        &--list {
+            &--link {
+                &--menu {
+                    color: $white;
+                }
+            }
+        }
     }
     &--social-media {
             text-transform: uppercase;
@@ -32,6 +39,13 @@
         @media (min-width: 768px) {
                 display: flex;
                 order: 3;
+        }
+        &--list {
+            &--link {
+                &--profile {
+                    color: $white;
+                }
+            }
         }
     }
     &--copyright {
