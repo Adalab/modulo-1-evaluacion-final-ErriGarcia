@@ -223,6 +223,7 @@ html {
     .section-1--button--link {
       height: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; }
 
@@ -273,6 +274,7 @@ html {
     border-radius: 40px;
     padding: 10px 11.4px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 11px; }
@@ -363,6 +365,7 @@ html {
     border-width: 0;
     padding: 10px 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 27px; }
@@ -403,6 +406,7 @@ html {
     .section-3--button--link--link {
       height: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center; }
 

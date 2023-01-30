@@ -8,9 +8,7 @@
 
 @mixin scroll_arrow {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex (column, center, center);
 }
 
 @mixin button_white_style {
@@ -23,9 +21,7 @@
     background-color: $white;
     border-radius: 40px;
     padding: 10px 11.4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex (column, center, center);
     margin-top: 11px;
 }
 
@@ -39,8 +35,6 @@
     border-radius: 40px;
     border-width: 0;
     padding: 10px 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex (column, center, center);
     margin-top: 27px;
 }
