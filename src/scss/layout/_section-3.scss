@@ -84,6 +84,7 @@
         @include button_link;
         transform: translate(0, 44%);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        animation: animation-1 0.4s linear 3s infinite alternate;
     @media (min-width: 768px) {
         width: 45px;
         height: 45px;

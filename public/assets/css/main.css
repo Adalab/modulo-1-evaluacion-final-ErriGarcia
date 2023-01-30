@@ -140,6 +140,12 @@ button {
 html {
   scroll-behavior: smooth; }
 
+@keyframes animation-1 {
+  from {
+    transform: translateY(-10px); }
+  to {
+    transform: translateY(5px); } }
+
 .header {
   background-color: #f26002;
   width: 37px;
@@ -368,7 +374,8 @@ html {
     border-radius: 50%;
     margin-top: 10px;
     transform: translate(0, 44%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    animation: animation-1 0.4s linear 3s infinite alternate; }
     @media (min-width: 768px) {
       .section-3--button--link {
         width: 45px;
