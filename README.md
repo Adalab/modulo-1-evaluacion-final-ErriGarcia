@@ -1,20 +1,21 @@
 # Module: 1 Final evaluation exercise
-Build a responsive Home page for Adalab final module 1 exercise.
+
+Hi there! 👋🏻 I am Enrica and this is my Final evalutaion exercise: build a responsive Home page.
 
 ![imagename](./public/assets/images/project-image.png)
 
-### Built With:
+### Built With: 🛠
 - HTML
 - SCSS
 - Adalab Web Starter Kit
 
-### Challenges I have faced
+### Challenges I have faced 🤖
 The very first challenge was to adapt the image in the hero for all devices.
 
-### Features to implement in the future
+### Features to implement in the future 🤓 🔁
 **Transform**, **transition** and **animation** properties for the buttons.
 
-### Getting Started
+### Getting Started 💪🏼
 
 Clone the repo:
 * `git clone https://github.com/your_username_/Project-Name.git`
@@ -28,11 +29,11 @@ Start the project:
 ### License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-### What I've learned
+### What I've learned 💁🏻‍♀️
 > For every minute spent in organizing, an hour is earned.
 > — Benjamin Franklin
 
-### Contact me
+### Contact me 👩🏻‍💻
 [Enrica Garcia](https://www.linkedin.com/in/enrica-garcia-69541a208/)
 
 Project Link: https://github.com/your_username/repo_name
