@@ -1,27 +1,24 @@
 .footer {
     background-color: $greyishBrown;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex (column, center, center);
     padding: 65px 0 36px 0;
     row-gap: 30px;
     text-align: center;
     color: $white;
     font: $roboto_regular_16;
-    @media (min-width: 768px) {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
+    @include tablet() {
+        @include displayFlex (row, space-around, flex-start);
+        column-gap: 30px;
+        padding: 56px 159px 36px 159px;
         text-align: left;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         padding: 52px 370px 40px;
     }
     &--nav {
         text-transform: uppercase;
         line-height: 30px;
-        @media (min-width: 768px) {
+        @include tablet() {
             display: flex;
             order: 2;
         }
@@ -36,7 +33,7 @@
     &--social-media {
             text-transform: uppercase;
             line-height: 30px;
-    @media (min-width: 768px) {
+    @include tablet() {
             display: flex;
             order: 3;
     }
@@ -51,7 +48,7 @@
     &--copyright {
         font: $roboto_regular_14;
         line-height: 30px;
-        @media (min-width: 768px) {
+        @include tablet() {
                 display: flex;
                 flex-direction: column;;
                 order: 1;

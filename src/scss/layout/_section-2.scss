@@ -1,16 +1,16 @@
 .section-2 {
-    padding: 34px 18px 41px 18px;
-    @media (min-width: 768px) {
+    padding: 34px 18px 51px 18px;
+    @include tablet() {
         padding: 37px 37px 51px 37px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         padding: 58px 136px 67px 275px;
     }
     &--small-paragraph {
         color: $brightOrange;
         font: $roboto_regular_14;
         line-height: 30px;
-    @media (min-width: 768px) {
+    @include tablet() {
             font: $roboto_regular_16;
             line-height: 30px;
     }
@@ -19,7 +19,7 @@
         color: $black;
         font: $robotoSlab_bold_24;
         line-height: 30px;
-    @media (min-width: 768px) {
+    @include tablet() {
         font: $robotoSlab_bold_32;
         line-height: 45px;
     }
@@ -29,18 +29,22 @@
         font: $roboto_regular_18;
         line-height: 30px;
         margin-top: 12px;
-    @media (min-width: 768px) {
+    @include tablet() {
         font: $roboto_regular_20;
         line-height: 30px;
+    }
+    @include desktop() {
+        margin-top: 7px;
     }
     }
     &--button {
         @include button_white_style;
-    @media (min-width: 768px) {
+    @include tablet() {
         margin-top: 21px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         transition: 0.5s;
+        margin-top: 25px;
         &:hover {
             background-color: $brightOrange;
             color: $white;

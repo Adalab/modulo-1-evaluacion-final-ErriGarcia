@@ -1,73 +1,72 @@
 .section-3 {
     background-color: $ligthGrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex (column, center, center);
+    color: $black;
     text-align: center;
     padding-top: 29px;
-    color: $black;
-    @media (min-width: 768px) {
-        padding: 29px 49px 0 49px;
+    @include tablet() {
+        padding: 49px;
+        padding-bottom: 0;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         padding-top: 48px;
     }
     &--title {
         font: $robotoSlab_bold_20;
         line-height: 30px;
         margin: 0 15px 0 15px;
-    @media (min-width: 768px) {
+    @include tablet() {
         font: $robotoSlab_bold_28;
         line-height: 45px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         font: $robotoSlab_bold_32;
         line-height: 45px;
     }
     }
     &--container {
-    @media (min-width: 768px) {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 27.7px;
+    @include tablet() {
+        @include displayGrid (3, 27.7px);
     }
         &--article {
             margin: 41px 72px 0 72px;
-        @media (min-width: 768px) {
+        @include tablet() {
             margin: 38px 0 0 0;
+        }
+        @include desktop() {
+            margin-top: 51px;
         }
         }
         &--title {
             font: $robotoSlab_bold_18;
             line-height: 30px;
-        @media (min-width: 768px) {
+        @include tablet() {
             font: $robotoSlab_bold_24;
             line-height: 30px;
         }
-        @media (min-width: 1200px) {
+        @include desktop() {
             font: $robotoSlab_bold_24;
         }
         }
         &--paragraph {
             font: $roboto_regular_18;
             line-height: 30px;
-        @media (min-width: 768px) {
+        @include tablet() {
             font: $roboto_regular_20;
             line-height: 30px;
             margin-top: 18px;
         }
-        @media (min-width: 1200px) {
+        @include desktop() {
             margin-top: 32px
         }
         }
     }
     &--button {
         @include button_orange_style;
-    @media (min-width: 768px) {
+    @include tablet() {
         margin-top: 38px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         transition: 0.5s;
         &:hover {
             background-color: $white;
@@ -79,18 +78,19 @@
     }
     }
     &--button--link {
-        display: flex;
-        justify-content: center;
+        @include displayFlex (initial, center, center);
         @include button_link;
+        margin-top: 27px;
         transform: translate(0, 44%);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         animation: animation-1 0.4s linear 3s infinite alternate;
-    @media (min-width: 768px) {
+    @include tablet() {
         width: 45px;
         height: 45px;
+        margin-top: 34px;
     }
-    @media (min-width: 768px) {
-        margin-top: 31px;
+    @include desktop() {
+        margin-top: 41px;
     }
         &--link {
             @include scroll_arrow;

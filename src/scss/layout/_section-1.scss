@@ -5,25 +5,25 @@
     background-position: 40.7%;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
+    @include displayFlex (column, end, center);
     color: $white;
     text-align: center;
-    @media (min-width: 768px) {
+    @include tablet() {
         background-position: 21.7%;
         padding-bottom: 45px;
+    }
+    @include desktop() {
+        padding: 49px;
     }
     &--title {
         font: $robotoSlab_bold_30;
         text-transform: uppercase;
         line-height: 50px;
-    @media (min-width: 768px) {
+    @include tablet() {
         font: $robotoSlab_bold_75;
         line-height: 100px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         font: $robotoSlab_bold_100;
         line-height: 132px;
         max-width: 954px;
@@ -32,26 +32,27 @@
     &--description {
         font: $roboto_regular_16;
         line-height: 19px;
-    @media (min-width: 768px) {
+    @include tablet() {
         font: $roboto_regular_24;
         line-height: 28px;
         max-width: 340px;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         min-width: fit-content;
     }
     }
     &--button {
         @include button_link;
             margin-bottom: 37px;
-    @media (min-width: 768px) {
+    @include tablet() {
         width: 42.5px;
         height: 45px;
+        margin-bottom: 0;
     }
-    @media (min-width: 1200px) {
+    @include desktop() {
         width: 46.2px;
         height: 45.9px;
-        margin: 33.4px 0 30px 0;
+        margin-top: 33.4px;
     }
         &--link {
             @include scroll_arrow;
