@@ -10,32 +10,32 @@
     text-align: center;
     @include tablet() {
         background-position: 21.7%;
-        padding-bottom: 45px;
+        padding-bottom: 4.5rem;
     }
     @include desktop() {
-        padding: 49px;
+        padding: 4.9rem;
     }
     &--title {
         font: $robotoSlab_bold_30;
         text-transform: uppercase;
-        line-height: 50px;
+        line-height: 5rem;
     @include tablet() {
         font: $robotoSlab_bold_75;
-        line-height: 100px;
+        line-height: 10rem;
     }
     @include desktop() {
         font: $robotoSlab_bold_100;
-        line-height: 132px;
-        max-width: 954px;
+        line-height: 13.2rem;
+        max-width: 95.4rem;
     }
     }
     &--description {
         font: $roboto_regular_16;
-        line-height: 19px;
+        line-height: 1.9rem;
     @include tablet() {
         font: $roboto_regular_24;
-        line-height: 28px;
-        max-width: 340px;
+        line-height: 2.8rem;
+        max-width: 34rem;
     }
     @include desktop() {
         min-width: fit-content;
@@ -43,16 +43,16 @@
     }
     &--button {
         @include button_link;
-            margin-bottom: 37px;
+            margin-bottom: 3.7rem;
     @include tablet() {
-        width: 42.5px;
-        height: 45px;
+        width: 4.25rem;
+        height: 4.5rem;
         margin-bottom: 0;
     }
     @include desktop() {
-        width: 46.2px;
-        height: 45.9px;
-        margin-top: 33.4px;
+        width: 4.62rem;
+        height: 4.59rem;
+        margin-top: 3.34rem;
     }
         &--link {
             @include scroll_arrow;

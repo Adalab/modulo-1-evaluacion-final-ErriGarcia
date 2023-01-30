@@ -13,15 +13,15 @@
     }
     &--title {
         font: $robotoSlab_bold_20;
-        line-height: 30px;
-        margin: 0 15px 0 15px;
+        line-height: 3rem;
+        margin: 0 1.5rem 0 1.5rem;
     @include tablet() {
         font: $robotoSlab_bold_28;
-        line-height: 45px;
+        line-height: 4.5rem;
     }
     @include desktop() {
         font: $robotoSlab_bold_32;
-        line-height: 45px;
+        line-height: 4.5rem;
     }
     }
     &--container {
@@ -29,20 +29,20 @@
         @include displayGrid (3, 27.7px);
     }
         &--article {
-            margin: 41px 72px 0 72px;
+            margin: 4.1rem 7.2rem 0 7.2rem;
         @include tablet() {
-            margin: 38px 0 0 0;
+            margin: 3.8rem 0 0 0;
         }
         @include desktop() {
-            margin-top: 51px;
+            margin-top: 5.1rem;
         }
         }
         &--title {
             font: $robotoSlab_bold_18;
-            line-height: 30px;
+            line-height: 3rem;
         @include tablet() {
             font: $robotoSlab_bold_24;
-            line-height: 30px;
+            line-height: 3rem;
         }
         @include desktop() {
             font: $robotoSlab_bold_24;
@@ -50,14 +50,14 @@
         }
         &--paragraph {
             font: $roboto_regular_18;
-            line-height: 30px;
+            line-height: 3rem;
         @include tablet() {
             font: $roboto_regular_20;
-            line-height: 30px;
-            margin-top: 18px;
+            line-height: 3rem;
+            margin-top: 1.8rem;
         }
         @include desktop() {
-            margin-top: 32px
+            margin-top: 3.2rem;
         }
         }
     }

@@ -1,50 +1,50 @@
 .section-2 {
-    padding: 34px 18px 51px 18px;
+    padding: 3.4rem 1.8rem 5.1rem 1.8rem;
     @include tablet() {
-        padding: 37px 37px 51px 37px;
+        padding: 3.7rem 3.7rem 5.1rem 3.7rem;
     }
     @include desktop() {
-        padding: 58px 136px 67px 275px;
+        padding: 5.8rem 13.6rem 6.7rem 27.5rem;
     }
     &--small-paragraph {
         color: $brightOrange;
         font: $roboto_regular_14;
-        line-height: 30px;
+        line-height: 3rem;
     @include tablet() {
             font: $roboto_regular_16;
-            line-height: 30px;
+            line-height: 3rem;
     }
     }
     &--title {
         color: $black;
         font: $robotoSlab_bold_24;
-        line-height: 30px;
+        line-height: 3rem;
     @include tablet() {
         font: $robotoSlab_bold_32;
-        line-height: 45px;
+        line-height: 4.5rem;
     }
     }
     &--description {
         color: $greyishBrown;
         font: $roboto_regular_18;
-        line-height: 30px;
-        margin-top: 12px;
+        line-height: 3rem;
+        margin-top: 1.2rem;
     @include tablet() {
         font: $roboto_regular_20;
-        line-height: 30px;
+        line-height: 3rem;
     }
     @include desktop() {
-        margin-top: 7px;
+        margin-top: 0.7rem;
     }
     }
     &--button {
         @include button_white_style;
     @include tablet() {
-        margin-top: 21px;
+        margin-top: 2.1rem;
     }
     @include desktop() {
         transition: 0.5s;
-        margin-top: 25px;
+        margin-top: 2.5rem;
         &:hover {
             background-color: $brightOrange;
             color: $white;

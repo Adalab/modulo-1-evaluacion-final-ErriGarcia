@@ -1,23 +1,23 @@
 .footer {
     background-color: $greyishBrown;
     @include displayFlex (column, center, center);
-    padding: 65px 0 36px 0;
-    row-gap: 30px;
+    padding: 6.5rem 0 3.6rem 0;
+    row-gap: 3rem;
     text-align: center;
     color: $white;
     font: $roboto_regular_16;
     @include tablet() {
         @include displayFlex (row, space-around, flex-start);
-        column-gap: 30px;
-        padding: 56px 159px 36px 159px;
+        column-gap: 3rem;
+        padding: 5.6rem 15.9rem 3.6rem 15.9rem;
         text-align: left;
     }
     @include desktop() {
-        padding: 52px 370px 40px;
+        padding: 5.2rem 37rem 4rem;
     }
     &--nav {
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 3rem;
         @include tablet() {
             display: flex;
             order: 2;
@@ -32,7 +32,7 @@
     }
     &--social-media {
             text-transform: uppercase;
-            line-height: 30px;
+            line-height: 3rem;
     @include tablet() {
             display: flex;
             order: 3;
@@ -47,7 +47,7 @@
     }
     &--copyright {
         font: $roboto_regular_14;
-        line-height: 30px;
+        line-height: 3rem;
         @include tablet() {
                 display: flex;
                 flex-direction: column;;
