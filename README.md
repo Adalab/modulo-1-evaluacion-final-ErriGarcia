@@ -18,7 +18,7 @@ The very first challenge was to adapt the image in the hero for all devices.
 ### Getting Started 💪🏼
 
 Clone the repo:
-* `git clone https://github.com/your_username_/Project-Name.git`
+* `git clone https://github.com/Adalab/modulo-1-evaluacion-final-ErriGarcia.git`
 
 Install NPM packages:
 * `npm install`
