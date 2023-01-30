@@ -10,43 +10,43 @@
         color: $brightOrange;
         font: $roboto_regular_14;
         line-height: 30px;
-        @media (min-width: 768px) {
-                font: $roboto_regular_16;
-                line-height: 30px;
-            }
+    @media (min-width: 768px) {
+            font: $roboto_regular_16;
+            line-height: 30px;
+    }
     }
     &--title {
         color: $black;
         font: $robotoSlab_bold_24;
         line-height: 30px;
-        @media (min-width: 768px) {
-            font: $robotoSlab_bold_32;
-            line-height: 45px;
-        }
+    @media (min-width: 768px) {
+        font: $robotoSlab_bold_32;
+        line-height: 45px;
+    }
     }
     &--description {
         color: $greyishBrown;
         font: $roboto_regular_18;
         line-height: 30px;
         margin-top: 12px;
-        @media (min-width: 768px) {
-            font: $roboto_regular_20;
-            line-height: 30px;
-        }
+    @media (min-width: 768px) {
+        font: $roboto_regular_20;
+        line-height: 30px;
+    }
     }
     &--button {
         @include button_white_style;
-        @media (min-width: 768px) {
-            margin-top: 21px;
+    @media (min-width: 768px) {
+        margin-top: 21px;
+    }
+    @media (min-width: 1200px) {
+        transition: 0.5s;
+        &:hover {
+            background-color: $brightOrange;
+            color: $white;
+            cursor: pointer;
+            transform: scale(1.1);
         }
-        @media (min-width: 1200px) {
-            transition: 0.5s;
-            &:hover {
-                background-color: $brightOrange;
-                color: $white;
-                cursor: pointer;
-                transform: scale(1.1);
-            }
-        }
+    }
     }
 }

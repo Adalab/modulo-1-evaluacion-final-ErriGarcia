@@ -10,73 +10,73 @@
     @media (min-width: 768px) {
         padding: 29px 49px 0 49px;
     }
-        @media (min-width: 1200px) {
-            padding-top: 48px;
-        }
+    @media (min-width: 1200px) {
+        padding-top: 48px;
+    }
     &--title {
         font: $robotoSlab_bold_20;
         line-height: 30px;
         margin: 0 15px 0 15px;
-        @media (min-width: 768px) {
-            font: $robotoSlab_bold_28;
-            line-height: 45px;
-        }
-                @media (min-width: 1200px) {
-                    font: $robotoSlab_bold_32;
-                    line-height: 45px;
-                }
+    @media (min-width: 768px) {
+        font: $robotoSlab_bold_28;
+        line-height: 45px;
+    }
+    @media (min-width: 1200px) {
+        font: $robotoSlab_bold_32;
+        line-height: 45px;
+    }
     }
     &--container {
-        @media (min-width: 768px) {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 27.7px;
-            }
+    @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 27.7px;
+    }
         &--article {
             margin: 41px 72px 0 72px;
-            @media (min-width: 768px) {
-                margin: 38px 0 0 0;
-            }
+        @media (min-width: 768px) {
+            margin: 38px 0 0 0;
+        }
         }
         &--title {
             font: $robotoSlab_bold_18;
             line-height: 30px;
-            @media (min-width: 768px) {
-                font: $robotoSlab_bold_24;
-                line-height: 30px;
-            }
-                @media (min-width: 1200px) {
-                    font: $robotoSlab_bold_24;
-                }
+        @media (min-width: 768px) {
+            font: $robotoSlab_bold_24;
+            line-height: 30px;
+        }
+        @media (min-width: 1200px) {
+            font: $robotoSlab_bold_24;
+        }
         }
         &--paragraph {
             font: $roboto_regular_18;
             line-height: 30px;
-            @media (min-width: 768px) {
-                font: $roboto_regular_20;
-                line-height: 30px;
-                margin-top: 18px;
-            }
-                @media (min-width: 1200px) {
-                    margin-top: 32px
-                }
+        @media (min-width: 768px) {
+            font: $roboto_regular_20;
+            line-height: 30px;
+            margin-top: 18px;
+        }
+        @media (min-width: 1200px) {
+            margin-top: 32px
+        }
         }
     }
     &--button {
         @include button_orange_style;
-        @media (min-width: 768px) {
-            margin-top: 38px;
+    @media (min-width: 768px) {
+        margin-top: 38px;
+    }
+    @media (min-width: 1200px) {
+        transition: 0.5s;
+        &:hover {
+            background-color: $white;
+            border: 2px solid $brightOrange;
+            color: $brightOrange;
+            cursor: pointer;
+            transform: scale(1.1);
         }
-        @media (min-width: 1200px) {
-            transition: 0.5s;
-            &:hover {
-                background-color: $white;
-                border: 2px solid $brightOrange;
-                color: $brightOrange;
-                cursor: pointer;
-                transform: scale(1.1);
-            }
-        }
+    }
     }
     &--button--link {
         display: flex;
@@ -84,13 +84,13 @@
         @include button_link;
         transform: translate(0, 44%);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-        @media (min-width: 768px) {
-            width: 45px;
-            height: 45px;
-        }
-            @media (min-width: 768px) {
-                margin-top: 31px;
-            }
+    @media (min-width: 768px) {
+        width: 45px;
+        height: 45px;
+    }
+    @media (min-width: 768px) {
+        margin-top: 31px;
+    }
         &--link {
             @include scroll_arrow;
         }

@@ -137,6 +137,9 @@ button {
   background: none;
   border: none; }
 
+html {
+  scroll-behavior: smooth; }
+
 .header {
   background-color: #f26002;
   width: 37px;
@@ -427,8 +430,5 @@ button {
         order: 1; } }
     .footer--copyright--orange-heart {
       color: #f26002; }
-
-html {
-  scroll-behavior: smooth; }
 
 /*# sourceMappingURL=main.css.map */
